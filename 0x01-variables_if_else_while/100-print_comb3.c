@@ -12,8 +12,8 @@ for (w = f + 1; w <= 9; w++)
 {
 if (w != f)
 {
-putchar(n);
-putchar(m);
+putchar(f);
+putchar(w);
 if (f == 8 && w == 9)
 {
 putchar(',');
