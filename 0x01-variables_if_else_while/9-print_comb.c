@@ -5,14 +5,12 @@
  */
 int main(void)
 {
-int n;
-for (n = 48; n < 58; n++)
-{
-putchar(n);
-if (n != 57)
+putchar('0');
+for (int i = 1; i < 10; i++)
 {
 putchar(',');
 putchar(' ');
+putchar(i + '0');
 }
 putchar('\n');
 return (0);
