@@ -15,10 +15,9 @@ if (w != f)
 putchar(f);
 putchar(w);
 if (f == '8' && w == '9')
-{
+continue;
 putchar(',');
 putchar(' ');
-}
 }
 }
 }
