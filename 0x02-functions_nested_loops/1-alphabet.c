@@ -3,7 +3,7 @@
  * main - A program that prints the alphabet
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void);
 {
 char alph[26] = "abcdefghijklmnopqrstuvwxyz";
 int i;
