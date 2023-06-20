@@ -9,7 +9,7 @@ char c;
 int i = 0;
 while(i <= 9)
 {
-for(c=0; c <= 9; c++)
+for(c = 'a'; c <= 'z'; c++)
 {
 _putchar(c);
 }
