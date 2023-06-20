@@ -1,16 +1,14 @@
 #include "main.h"
 /**
  * main - A program that prints the alphabet
- * Return: Always 0 (Success)
+ * Return: void
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
-char alph[26] = "abcdefghijklmnopqrstuvwxyz";
-int i;
-for(i = 1; i <= 26; i++)
+char c;
+for(c = 'a'; c <= 'z'; c++)
 {
-_putchar(alph[i]);
+_putchar(c);
 }
 _putchar('\n');
-return (0);
 }
