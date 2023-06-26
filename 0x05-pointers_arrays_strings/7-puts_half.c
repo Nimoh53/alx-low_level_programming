@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts-half - Prints half of a string
+ * puts_half - Prints half of a string
  * @str: The string to print
  * Return: void
  */
@@ -10,7 +10,7 @@ int j = 0;
 int k;
 while (str[j] != '\0')
 {
-j++;    
+j++;
 }
 if (j % 2 == 1)
 {
