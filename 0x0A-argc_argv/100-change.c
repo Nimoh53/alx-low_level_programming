@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
+
 /**
  * main - Prints the minimum number of coins to
  * make change for an amout of money
@@ -9,6 +10,7 @@
  * Return: 1 if the number of arguments is not exactly one
  * otherwise 0.
  */
+
 int main(int argc, char *argv[])
 {
 int cents, coins = 0;
