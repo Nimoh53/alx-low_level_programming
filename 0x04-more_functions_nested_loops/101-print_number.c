@@ -19,4 +19,3 @@ if (k != 0)
 print_number(k);
 putchar((unsigned int) n % 10 + '0');
 }
-
